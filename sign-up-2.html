@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Registration form</title>
+		<link rel="stylesheet" type="text/css" href="style.2.css">
+	<script type="text/javascript" src="script.js"></script>
+	</head>	
+	<body>
+		<div class="home">
+			<a href="sign-up.html">BACK</a>
+		 </div>				
+		<div class="register">
+			<h2>SIGN UP</h2>
+				<form method="post"  onsubmit="return validate()" id="register" action="sign-up.html">
+			<lable>First Name</lable><br>
+				<input type="text" name="Fname" id="name" placeholder="First name" ><br><br>
+			<lable>Last Name</lable><br>
+				<input type="text" name="Lname" id="name" placeholder="Last name" ><br><br>
+			<lable>Mobile Number</lable><br>
+				<select id="ph">
+				<option>+91</option>
+				<option>+92</option>
+				<option>+93</option>
+				<option>+94</option>
+				<option>+95</option>
+				</select>	
+				<input type="number" name="MNum" id="num" placeholder="Mobile Number" ><br><br>
+			<lable>E-mail</lable><br>
+				<input type="email" name="email" id="email" placeholder="E-mail" ><br><br>
+			<lable>Password</lable><br>
+				<input type="password" name="pass" id="pass" placeholder="Password" ><br><br>
+			<lable>Re-enter your password</lable><br>
+				<input type="password" name="pass" id="pass" placeholder="Password" ><br><br>
+				<input type="radio" name="male" id="male" checked>
+					<span id="male">&nbsp; Male</span>&nbsp;&nbsp;
+				<input type="radio" name="male" id="male">
+					<span id="male">&nbsp; Female</span>&nbsp;&nbsp;
+				<input type="radio" name="male" id="male">
+					<span id="male">&nbsp; Others</span>&nbsp;&nbsp;<br><br>
+				<input class="s1" type="submit" value="Submit" id="sub" onclick=" validate()">
+			</form>
+		</div>
+	</body>		
+</html>

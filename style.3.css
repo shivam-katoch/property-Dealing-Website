@@ -1,0 +1,130 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	font-family: sans-serif;
+}
+body{
+	background: url(M.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size:1190px;
+	background-color: lightcoral;
+	
+}
+.wrapper{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	max-width: 350px;
+	width: 100%;
+	background: rgba(252, 101, 219, 0.692);
+	padding: 25px;
+	border-radius: 5px;
+	box-shadow: 4px 4px 2px rgb(196, 3, 245);
+	color: #FFF;
+}
+.wrapper h2{
+	text-align: center;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color:rgb(196, 3, 245);;
+}
+.wrapper .input_field{
+	margin-bottom: 10px;
+	background: none;
+	color: #FFF;
+}
+.wrapper .input_field input[type="text"],.wrapper .input_field input[type="email"],.wrapper .input_field input[type="number"],
+.wrapper textarea{
+	width: 100%;
+	border: 1px solid #e0e0e0;
+	padding: 10px;
+	background: none;
+	color:  #a70872;
+}
+
+.wrapper textarea:hover
+{
+	border: #a70872 double;
+	background-color: #e0e0e0;
+	color: #a70872;
+	transition: .6s ease-in-out;
+}
+.wrapper textarea{
+	height: 80px;
+	resize: none;
+	background: none;
+	color: #FFF;
+}
+.wrapper .btn input[type="submit"]:hover
+{
+	border: #a70872 double;
+	background-color: #e0e0e0;
+	color: #a70872;
+	transition: .6s ease-in-out;
+}
+.wrapper .btn input[type="submit"]{
+	border: 0;
+	margin-top: 15px;
+	padding: 10px;
+	width: 100%;
+	background: #a70872;
+	color:#332902;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: bold;
+	border-radius: 25px;
+	cursor: pointer;
+}
+.wrapper #error_message{
+	margin-bottom: 20px;
+	padding: 0px;
+	background: #fe8b8e;
+	text-align: center;
+	font-size: 14px;
+	transition: all 0.5s ease;
+}
+.home
+{
+	float: center;
+	position: absolute;
+
+	display: block;
+	background-color:#fe8b8e; 
+	text-align: center;
+	margin-top :50px;
+	margin-left: 47%;
+	
+}
+.home a
+{	padding: 15px;
+	text-decoration: none;
+	background-color:#fe8b8e;
+	border-radius: 5px;
+	border: double #fff;
+	color: #fff;
+}
+.home a:hover
+{
+	color:#fe8b8e;
+	background-color: #fff;
+	transition: .4s ease-in-out;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
